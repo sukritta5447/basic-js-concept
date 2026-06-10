@@ -1,0 +1,1 @@
+"# basic-js-concept"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin git@github.com:CodePawsDev/basic-js-concept.gitgit push -u origin main
