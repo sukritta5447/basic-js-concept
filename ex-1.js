@@ -5,3 +5,9 @@
 3. เปลี่ยนค่าใน firstname เป็น "Jenny"
 4. แสดงค่าที่เก็บอยู่ในตัวแปร firstname 
 */
+
+let fistname = "John";
+console.log(fistname); // 'John'
+
+fistname = "Jenny";
+console.log(fistname); // 'Jenny'
