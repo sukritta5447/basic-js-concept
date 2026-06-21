@@ -30,3 +30,13 @@ const cart = [
         quantity: 4
     }
 ];
+
+function calculatePrice(products){
+    let total = 0;
+    for (let item of products){
+        total += item.price * item.quantity;
+    }
+    return total;
+}
+
+console.log(`ต้องจ่ายเงินทั้งหมด ${calculatePrice(cart)} บาท`)

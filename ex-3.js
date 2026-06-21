@@ -10,3 +10,15 @@
 8. คนงานในร้านบอกว่าจะเปลี่ยนผลไม้ในตำแหน่งที่ 3 (index 2) เป็น pineapple ให้ทำการเปลี่ยนสินค้า
 9. ให้แสดงข้อมูลรายการสินค้า ณ ปัจจุบัน
 */
+
+let products = ["apple", "orange", "pear", "cherry"];
+console.log(products)
+
+products.pop();
+console.log(products)
+
+products.push("black berry")
+console.log(products[1])
+
+products[2] = "pineapple";
+console.log(products)

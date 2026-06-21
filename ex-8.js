@@ -40,3 +40,17 @@ const cart = [
         quantity: 4
     }
 ];
+
+function getDiscount(product){
+    for (let item of product){
+        if (item.price * item.quantity >= 15000){
+            return `ได้ส่วนลด 10%`
+        } else if (item.price * item.quantity >= 6000){
+            return `ได้ส่วนลด 5%`
+        } else {
+             return `ไม่ได้ส่วนลด เสียใจด้วย!`
+        }
+    }
+}
+
+console.log(getDiscount(cart))

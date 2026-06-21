@@ -1,7 +1,13 @@
 /* ให้เขียน function เพื่อหาว่าคะแนนต่ำสุดเท่ากับเท่าไร */
 
 function findMinScore (arr) {
-    // เขียนโค้ดตรงนี้
+    let minScore = arr[0];
+    for (let num of arr){
+        if (minScore > num){
+            minScore = num;
+        }
+    }
+    return minScore;
 }
 
 const roomOneScores = [70, 65, 70, 80, 95, 100];

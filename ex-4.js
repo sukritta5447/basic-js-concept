@@ -32,3 +32,15 @@ const students = [
     hobby: "Playing Computer Games"
   }
 ];
+
+console.log(`${students[0].name} likes ${students[0].hobby}`)
+console.log(`${students[3].name} likes ${students[3].hobby}`)
+console.log(`${students[2].name}'s id is ${students[2].id}`)
+
+students[2].hobby = "Singing";
+console.log(`${students[2].name} likes ${students[2].hobby}`)
+
+const newStudent = { id: 5, name: "Lisa", hobby: "Dancing" };
+students.push(newStudent);
+console.log(`${students[4].name}'s id is ${students[4].id}. ${students[4].name} likes ${students[4].hobby}`)
+
